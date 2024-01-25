@@ -41,4 +41,25 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/restaurant-reservation-system.git
+   git clone https://github.com/trandytarjuar/reservasi-resto.git
+
+2. **Install PHP dependencies:**
+    ```bash
+   composer install
+3. **Copy the .env.example file to .env:**
+    ```bash
+   cp .env.example .env
+4. **Creating Database with the Same Name as in .env:**
+    ```bash
+   DB_DATABASE=reservasi
+5. **Run database migrations:**
+    ```bash
+   php artisan migrate
+6. **Start the development server:**
+    ```bash
+   php artisan serve
+
+
+
+
+
